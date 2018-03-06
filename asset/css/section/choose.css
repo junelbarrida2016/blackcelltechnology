@@ -1,0 +1,50 @@
+
+.single-choose
+ h3 {
+    text-transform: uppercase;
+    font-weight:  900;
+    color: #fff;
+    margin-bottom: 20px;
+    overflow:hidden;
+    text-align: center;
+}
+
+.single-choose img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain
+}
+
+.image1{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.single-choose {
+    padding: 15px;
+    color: #fff;
+    position: relative;
+}
+
+
+.why-choose-us {
+    background-image: url(../../img/background.jpg);
+    background-position: center;
+    position: relative;
+}
+.why-choose-us:before {
+    position:  absolute;
+    left:  0;
+    top:  0;
+    content:  "";
+    height:  100%;
+    width:  100%;
+}
+.single-choose:before {
+    content:  "";
+    top:  0;
+    width: 150px;
+    height: 1px;
+    position:  absolute;
+}

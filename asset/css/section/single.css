@@ -1,0 +1,153 @@
+blockquote {
+    border-left: 5px solid #cbcbcb;
+    color: #000;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 17.5px;
+}
+
+
+.tagsshare div {
+    display: inline-block;
+    width: 49%;
+}
+
+.share {
+    text-align: right;
+}
+
+.share a {
+    background: #363636 none repeat scroll 0 0;
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 30px;
+    transition: .4s
+}
+
+.share a:hover {
+    background: #cbcbcb;
+    color: #fff
+}
+
+.tags a {
+    color: #000;
+    margin-right: 10px;
+    text-transform: capitalize;
+}
+
+.tagsshare strong {
+    margin-right: 10px;
+}
+
+.tagsshare {
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.author-title>h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.author-details {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 50px;
+}
+
+.author-img {
+    float: left;
+    margin-right: 30px;
+    width: 70px;
+}
+
+.about-author {
+    padding-left: 100px;
+}
+
+.about-author p {
+    margin-bottom: 20px;
+}
+
+.about-author>h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.about-author p {
+    color: #000
+}
+
+.about-author>span {
+    color: #FDE428;
+}
+
+.author-details.commenter {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.about-author>h5 {
+    font-style: italic;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #000;
+}
+
+.about-author>h5 a {
+    color: #cbcbcb;
+    text-transform: capitalize;
+}
+
+.author-details.commenter.reply {
+    margin-left: 100px;
+}
+
+.submit-btn input {
+    background: #363636;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+/*responsive query*/
+
+@media only screen and (min-width: 1400px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (max-width: 767px) {
+    .author-details.commenter.reply {
+        margin-left: 0
+    }
+    .tagsshare div{
+    	width: 100%;
+    	margin-bottom: 20px;
+    	text-align: center;
+    }
+    .tags a{
+    	margin-right: 7px
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}

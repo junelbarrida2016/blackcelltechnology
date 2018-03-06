@@ -1,0 +1,38 @@
+.name-title {
+    text-align: center;
+    padding: 20px;
+}
+
+.name-title h4 {
+    color: #fff;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-size:  18px;
+}
+
+.social-link a {
+    color: #76B947;
+    margin: 0px 10px;
+}
+
+.social-link {
+    margin-top: 10px;
+}
+
+.team-slider .owl-dots div {
+    width: 15px;
+    height: 15px;
+    background: #f1f2f3;
+    display:  inline-block;
+    margin: 3px;
+    border-radius: 50%;
+}
+
+.team-slider .owl-dots {
+    text-align:  center;
+    padding-top: 40px;
+}
+
+.team-slider .owl-dots div.active {
+    background:  #76b947;
+}

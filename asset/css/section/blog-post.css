@@ -1,0 +1,79 @@
+.blog-thumb {
+    position: relative;
+}
+
+.post-meta {
+    position: absolute;
+    bottom: 0;
+    background: #363636;
+    color: #fff;
+    padding: 10px 30px;
+    font-weight: 600;
+    opacity: 0.1;
+}
+
+::placeholder {
+    color: #000;
+    opacity: 1;
+}
+
+.post-meta:hover {
+    position: absolute;
+    bottom: 0;
+    background: #363636;
+    color: #fff;
+    padding: 10px 30px;
+    font-weight: 600;
+    opacity: 1.0;
+}
+
+.post-meta p a {
+    color: #fff;
+}
+
+h2.post-title a {
+    color: #000;
+    font-weight: 800;
+}
+
+h2.post-title {
+    color: #000;
+    padding-top: 30px;
+    padding-bottom: 16px;
+    font-weight: 800
+}
+
+.blog-post{
+	margin-bottom: 40px
+}
+
+/*responsive query*/
+
+@media only screen and (min-width: 1400px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (max-width: 767px) {
+
+.post-title {
+  font-size: 22px;
+}
+.post-meta {
+  position: relative;
+  padding-left: 20px;
+}
+.pagination > li > a, .pagination > li > span{
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+}
+.pagination{
+	padding-bottom: 30px
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}

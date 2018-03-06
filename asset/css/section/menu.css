@@ -1,0 +1,179 @@
+.menu-area {
+    background: #fff;
+}
+
+.menu-area img{
+    height: 100px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #333333;
+    font-size: 16px;
+    padding-right: 50px;
+    text-transform: capitalize;
+    padding-left: 0;
+    position: relative;
+    transition: .4s
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:before {
+    position: absolute;
+    height: 4px;
+    background-color: #cbcbcb;
+    bottom: 0;
+    left: 0;
+    content: "";
+    transition: .4s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover:before {
+    width: 100%;
+}
+
+.navbar.navbar-expand-lg {
+    padding: 0
+}
+
+.menu-area {
+    background-image: url(asset/img/innovation/header.png);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #000;
+    font-size: 16px;
+    padding-right: 0;
+    padding-left: 0;
+    position: relative;
+    transition: .4s;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 20px;
+    margin-left: 20px;
+    line-height: 50px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:before {
+    position: absolute;
+    height: 4px;
+    background-color: #363636;
+    bottom: 0;
+    left: 0;
+    content: "";
+    transition: .4s;
+    width: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover:before,
+.navbar-expand-lg .navbar-nav .nav-item.active a:before {
+    width: 100%;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover,
+.navbar-expand-lg .navbar-nav .nav-item.active a {
+    color: #363636;
+}
+
+
+.navbar.navbar-expand-lg {
+    padding: 0
+}
+
+.appointment-btn li {
+    display: block;
+    background-size: 100% 100%;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    line-height: 66px;
+    padding-right: 15px;
+    background: #76B947;
+    transition: .4s
+}
+
+.appointment-btn li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.appointment-btn li:hover {
+    background: transparent;
+    outline: 2px solid #76b947;
+    color: #003445;
+    outline-offset: -4px;
+}
+
+.appointment-btn li:hover a {
+    color: #003445;
+}
+
+
+a.navbar-brand {
+    font-size: 22px;
+    font-weight: 900;
+    color: #003445;
+}
+
+.website-logo a {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #76B947;
+}
+
+
+
+
+
+/*responsive query*/
+
+@media only screen and (min-width: 1400px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .navbar-expand-lg .navbar-nav .nav-link{
+        font-size: 13px;
+        margin-right: 15px;
+        margin-left: 15px
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .menu li {
+    text-align:  center;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    display:  inline-block;
+    line-height: 30px;
+}
+.appointment-btn li{
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-toggler-icon {
+        position: relative;
+        top: 6px;
+        font-size: 25px !important;
+        color: #003445;
+    }
+    .navbar-toggler:focus {
+        outline: none;
+    }
+    .menu{
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link{
+        display: inline-block;
+        line-height: 30px
+    }
+    .appointment-btn{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}

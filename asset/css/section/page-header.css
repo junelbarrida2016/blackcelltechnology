@@ -1,0 +1,69 @@
+section.page-header {
+    padding: 100px 0;
+    background-image: url(../../img/background.jpg);
+    background-position: bottom left;
+    position:  relative;
+    background-size: cover;
+}
+
+section.page-header:before {
+    position:  absolute;
+    width:  100%;
+    height:  100%;
+    left:  0;
+    top:  0;
+    content:  "";
+}
+
+.page-title h2 {
+    color: #fff;
+    font-weight:  800;
+    font-size: 60px;
+    text-transform: capitalize;
+}
+.page-title h2
+ span {
+    color:  #67b947;
+}
+ol.breadcrumb {
+    text-align:  center;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+ol.breadcrumb
+ li {
+    display:  inline-block;
+    color: #fff;
+}
+
+ol.breadcrumb
+ li a {
+    color: #fff;
+}
+
+.page-title {
+    text-align:  center;
+}
+
+
+.page-title:before{
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    left: 50%;
+    bottom: 0;
+    content:"";
+    background: #fff;
+    margin-left: -50px;
+}
+.page-title:after{
+   position: absolute;
+    width: 100px;
+    height: 1px;
+    left: 50%;
+    bottom: -4px;
+    content:"";
+    background: #fff;
+    margin-left: -25px;
+}

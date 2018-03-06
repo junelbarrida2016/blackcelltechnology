@@ -1,0 +1,96 @@
+
+/*start features area*/
+
+.proop-features-area {
+    background: #f1f2f3 none repeat scroll 0 0;
+}
+
+.features-icon {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #dbdcdd;
+    border-radius: 50%;
+    display: inline-block;
+    height: 100px;
+    line-height: 100px;
+    margin-bottom: 30px;
+    width: 100px;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: .4s;
+    transition: .4s;
+    font-size: 30px;
+    color: #363636;
+}
+
+.single-features h4 {
+    color: #003445;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.single-features h4::before {
+    background: #003445 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -35px;
+    position: absolute;
+    width: 70px;
+}
+
+.single-features {
+    font-weight: 100;
+    color: #003445;
+}
+
+
+.features-icon:before {
+    width: 90%;
+    height: 90%;
+    background: #003445;
+    left: 5%;
+    top: 5%;
+    content: "";
+    position: absolute;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+
+
+/*responsive query*/
+
+@media only screen and (min-width: 1400px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+        .single-features {
+    margin-bottom: 40px;
+}
+
+section.proop-features-area.section-padding {
+    padding-bottom: 40px;
+}
+}
+
+@media only screen and (max-width: 767px) {
+    .single-features {
+    margin-bottom: 40px;
+}
+
+section.proop-features-area.section-padding {
+    padding-bottom: 40px;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+

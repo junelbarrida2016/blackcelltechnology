@@ -1,0 +1,50 @@
+/*
+Theme Name: Template Name - Creative Business multipurpose HTML Template
+Theme URI: http://theimran.com/themeforest/
+Author: Abdullah Al Imran
+Author URI: http://theimran.com/
+Description: Template Name – Creative Business multipurpose HTML Template is especially designed for business niche companies. That contains everything any business needs.
+Version: 1.0
+*/
+@import url(bootstrap.min.css);
+@import url(font-awesome.min.css);
+@import url(countrySelect.min.css);
+@import url(owl.carousel.css);
+@import url(animate.css);
+@import url(magnific-popup.css);
+@import url(menumaker.css);
+@import url(reset.css);
+@import url(section/topbar.css);
+@import url(section/topbar-2.css);
+@import url(section/topbar-3.css);
+@import url(section/menu.css);
+@import url(section/menu-2.css);
+@import url(section/home-1.css);
+@import url(section/about.css);
+@import url(section/get-start.css);
+@import url(section/services.css);
+@import url(section/counter.css);
+@import url(section/testimonial.css);
+@import url(section/project.css);
+@import url(section/project-two.css);
+@import url(section/brand.css);
+@import url(section/team.css);
+@import url(section/footer.css);
+@import url(section/page-header.css);
+@import url(section/blog-post.css);
+@import url(section/sidebar.css);
+@import url(section/single.css);
+@import url(section/contact.css);
+@import url(section/choose.css);
+@import url(section/features.css);
+.google-map #gmap {
+    width: 100%;
+    height: 300px;
+}
+.contact-us-page .submit-btn input {
+    width: 200px;
+}
+
+.contact-us-page .submit-btn {
+    text-align:  center;
+}

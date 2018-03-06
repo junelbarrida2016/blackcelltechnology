@@ -1,0 +1,49 @@
+.get-start-section{
+    background-image: url(../../img/pro6l.jpg);
+    position: relative;
+}
+.get-start-section:before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    content: "";
+    background: rgba(241, 242, 243, .9);
+}
+.get-start-content {
+    color: #003445;
+}
+
+.get-start-content h2 {
+    font-size: 36px;
+    line-height: 46px;
+    margin-bottom: 20px;
+    font-weight:  900;
+    text-transform: capitalize;
+}
+
+.get-start-content h2 span {
+    color: #76B947;
+    font-weight: 900;
+}
+
+.get-start-content h2 span span {
+    color: #ff0000;
+}
+
+.get-start-content p {
+    font-size: 20px;
+    line-height: 30px
+}
+
+.section-title
+ p {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #414040;
+}
+.get-start-btn
+ a {
+    color: #003445;
+}
